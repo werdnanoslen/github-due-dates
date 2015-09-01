@@ -1,7 +1,7 @@
 from github import Github
 import re
 
-g = Github('19f95493be1225258f1a6edc2aeb62a61292eecc')
+g = Github()
 
 org = g.get_organization('codeforatlanta')
 repos = org.get_repos()
